@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 h1{
@@ -22,7 +23,9 @@ h1{
     background-image: linear-gradient(to right, orange, tomato);
     padding: 10px 20px;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px rgba(255, 166, 0, 0.247);
+    filter: drop-shadow(0 0 0.85rem rgba(255, 166, 0, 0.247));
+    ;
+    
 
 }
 
@@ -35,7 +38,7 @@ h1{
     padding-left: 20px;
 }
 
-.half-width img{
+.half-width .img1{
     width: 80%;
     padding-left: 100px;
 }
@@ -43,6 +46,32 @@ h1{
 .first-para{
     color: #575757;
 
+}
+
+h2{
+    color: #707070;
+    font-size: xx-large;
+    padding-top: 70px;
+}
+
+.half-width .img2{
+    width: 45%;
+    padding-top: 60px;
+    padding-left: 200px;
+}
+
+#section-2{
+    background-image: url(images/shapes/7.png);
+    margin-top: 50px;
+    
+}
+
+#section-2 p{
+    text-align: justify;
+}
+
+.p2{
+    padding-right: 20px;
 }
 
 
