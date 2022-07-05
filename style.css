@@ -24,7 +24,7 @@ h1{
     padding: 10px 20px;
     border-radius: 20px;
     filter: drop-shadow(0 0 0.85rem rgba(255, 166, 0, 0.247));
-    ;
+    
     
 
 }
@@ -74,5 +74,28 @@ h2{
     padding-right: 20px;
 }
 
+#section-3 #first-div{
+    text-align: center;
+}
+
+#parent-div{
+    display: flex;
+}
+.child{
+    width: 40%;
+    margin-left: 5%;
+    border: 20px solid white;
+    border-radius: 35px;
+    box-shadow:  2px 2px 20px 5px rgba(176, 175, 175, 0.4);
+
+}
+
+.child img{
+    width: 100%;
+}
+
+h3{
+    font-weight: bolder;
+}
 
 
